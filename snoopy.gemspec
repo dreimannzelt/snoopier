@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Björn Wolf"]
   s.email       = ["bjoern@dreimannzelt.de"]
   s.homepage    = "http://github.com/dreimannzelt/doorkeeper"
-  s.summary     = "Providing a configurable basic authentication feature"
-  s.description = "Add this gem an a some ENV variables to acticate a basic auth layer"
+  s.summary     = "Providing a configurable basic authentication based on Rack::Auth"
+  s.description = "Add this gem to your Gemfile and set some ENV variables to activate a basic auth layer"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

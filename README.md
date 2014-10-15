@@ -1,4 +1,9 @@
-# Doorkeeper
+# Snoopy
+
+Providing a configurable basic authentication based on Rack::Auth.
+
+
+## Configuration
 
 Add it to your gemfile:
 
@@ -6,8 +11,18 @@ Add it to your gemfile:
 
 ... and define following ENV variables
 
-    BASIC_AUTH_ENABLED=true (anything othe than true will disable the authentication)
+    BASIC_AUTH_ENABLED=true
     BASIC_AUTH_USER=myuser
     BASIC_AUTH_PASSWORD=mypass
 
+Setting `BASIC_AUTH_ENABLED` to anything other than "true" will disabled it completely.
+
+## TODO
+
+* Use Rails.secrets?
+* Testing
+
+
 This project rocks and uses MIT-LICENSE.
+
+Proudly built with love from http://www.dreimannzelt.de
