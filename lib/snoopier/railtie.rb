@@ -1,10 +1,6 @@
-module Snoopy
+module Snoopier
   class Railtie < Rails::Railtie
-    # config.autoload_paths << File.expand_path("../lib/some/path", __FILE__)
-
-    initializer "snoopy.add_middleware" do |app|
-      # app.middleware.use MyEngine::Middleware
-
+    initializer "snoopier.add_middleware" do |app|
       if ( ( basic_auth_enabled  = ENV["BASIC_AUTH_ENABLED"] ) == "true" &&
            ( basic_auth_user     = ENV["BASIC_AUTH_USER"] ).present? &&
            ( basic_auth_password = ENV["BASIC_AUTH_PASSWORD"] ).present? )

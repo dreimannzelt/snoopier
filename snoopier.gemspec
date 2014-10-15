@@ -3,15 +3,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "snoopy/version"
+require "snoopier/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "Snoopy"
-  s.version     = Snoopy::VERSION
+  s.name        = "snoopier"
+  s.version     = Snoopier::VERSION
   s.authors     = ["Björn Wolf"]
   s.email       = ["bjoern@dreimannzelt.de"]
-  s.homepage    = "http://github.com/dreimannzelt/snoopy"
+  s.homepage    = "http://github.com/dreimannzelt/snoopier"
   s.summary     = "Providing a configurable basic authentication based on Rack::Auth"
   s.description = "Add this gem to your Gemfile and set some ENV variables to activate a basic auth layer"
   s.license     = "MIT"
