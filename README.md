@@ -1,4 +1,4 @@
-# Snoopy
+# Snoopier
 
 Providing a configurable basic authentication based on Rack::Auth.
 
@@ -7,7 +7,7 @@ Providing a configurable basic authentication based on Rack::Auth.
 
 Add it to your gemfile:
 
-    gem "doorkeeper"
+    gem "snoopier"
 
 ... and define following ENV variables
 
